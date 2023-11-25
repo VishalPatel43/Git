@@ -52,7 +52,6 @@ git remote remove name --> remove the remote branch
 # Once we connectd the remote branch then we can push the code on github 
 
 git push -u origin main --> push the code on github 
-git push -u origin main --> push the code on github 
 
 # if we don't change then use the master branch 
 git branch -M main --> change the branch name to main then push the code on github (optional) 
