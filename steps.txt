@@ -86,4 +86,7 @@ git push -u origin main
 
 
 
+# Add gitignore file
+.gitignore create file add the .DS_Store file into it
+
 
