@@ -1,0 +1,90 @@
+Setup Git
+
+
+# configure git
+git config --global user.name "Your Name"
+git config --global user.email "
+
+# check current configure
+git config --list
+
+git config user.name
+git config user.email
+
+# create a new repository (local --> got that folder)
+git init 
+git status
+
+
+# If we use the terminal for Git then we have to use token (no need into gui coz we use username and password)
+
+
+# Clone the repository (remote --> local)
+git clone https://github.com/VishalPatel43/javascript.git 
+
+
+# Clone the Private repository --> we have to tell we are the owner of this repo (Termial --> Token & GUI --> username & password)
+
+# Clone Repo with PAT (Personal Access Token) (remote --> local) for private repo
+
+git clone https://token@github.com/VishalPatel43/javascript.git 
+
+
+
+# Push code on Github (local --> remote)
+
+git status --> check the status of the file
+git log --> check the log of the file
+git remote -v --> check the remote branch
+
+
+# Remote branch
+
+By convention, the remote branch of a repository is called origin.
+
+git remote add name https://url.git --> add the remote branch 
+git remote add origin https://url.git --> add the remote branch 
+
+git remote rename old new --> rename the remote branch 
+git remote remove name --> remove the remote branch 
+
+
+# Once we connectd the remote branch then we can push the code on github 
+
+git push -u origin main --> push the code on github 
+git push -u origin main --> push the code on github 
+
+# if we don't change then use the master branch 
+git branch -M main --> change the branch name to main then push the code on github (optional) 
+
+
+git init --> initialize the git 
+git add . --> add all the files 
+git commit -m "message" --> commit the file 
+git remote add origin htttps://github.com/VishalPatel43/javascript.git --> add the remote branch 
+git push origin -u main --> push the file on github 
+
+
+
+# Create new Repository on the command line
+
+echo "# javascript" >> README.md 
+git init 
+git add README.md 
+git commit -m "first commit" 
+git branch -M main 
+git remote add origin https://token@github.com/VishalPatel43/javascript.git 
+git push -u origin main 
+
+
+if we do this --> git branch -M main then we have to use main instead of master 
+
+# Push an existing repository from the command line 
+
+git remote add origin https://token@github.com/VishalPatel43/javascript.git 
+git branch -M main 
+git push -u origin main
+
+
+
+
